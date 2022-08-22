@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "staging": "NODE_ENV=staging mix",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.39",
+        "laravel-mix-jigsaw": "^2.0.0",
+        "less": "^4.1.3",
+        "less-loader": "^11.0.0",
+        "postcss": "^8.2.4",
+        "postcss-import": "^14.0.0",
+        "sass": "^1.54.4",
+        "sass-loader": "^13.0.2",
+        "tailwindcss": "^2.0.2",
+        "webpack": "^5.74.0"
+    }
+}
